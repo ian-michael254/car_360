@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    box-sizing:border-box;
+    background-color: #121212;
+    color:#fff;
+    font-family:'Sedan', sans-serif ;
+}
+a,li{
+    text-decoration:none;
+    list-style: none;
+}
+header{
+    background-color:#fff;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav li,a{
+    display:inline-block;
+    padding:5px 20px;
+    color:#000;
+    font-size: 20px;
+    font-weight: 500;
+    
+    
+}
+button{
+    width:200px;
+    padding:10px;
+    text-align:center;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+}
+button[type="button"]{
+    margin:0 -200px;
+    background-color:rgba(223, 19, 196, 0.623);
+    font-weight:500;
+    border:none;
+}
+nav a:hover{
+   border-bottom: 3px solid #000;
+   transition: all 0.2s linear 0.2s;
+}
+
