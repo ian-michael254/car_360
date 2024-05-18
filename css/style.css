@@ -4,51 +4,186 @@
 *{
     margin:0;
     padding:0;
-}
-
-
-body{
     box-sizing:border-box;
-    background-color: #121212;
-    color:#fff;
-    font-family:'Sedan', sans-serif ;
+    font-family: 'Jersey ','Sedan ital', sans-serif;
 }
-a,li{
-    text-decoration:none;
-    list-style: none;
+.logo{
+    width:100px;
 }
-header{
-    background-color:#fff;
+nav{
     display:flex;
     justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+    align-items:center;
+    padding:5% 5% 5% auto;
+    background-color: rgba(14, 13, 13, 0.788);
+    
 }
-nav li,a{
+nav ul li{
     display:inline-block;
-    padding:5px 20px;
-    color:#000;
-    font-size: 20px;
-    font-weight: 500;
-    
-    
+    padding:10px 20px;
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration:none;
+    font-weight:bold;
+    color:white;
+}
+nav ul li a:hover{
+    color:rgb(231, 48, 170);
+}
+nav ul li a.active{
+    border-bottom:2px solid rgb(231, 48, 170);
 }
 button{
-    width:200px;
-    padding:10px;
-    text-align:center;
-    border-radius:10px;
-    cursor:pointer;
-    font-size:16px;
-}
-button[type="button"]{
-    margin:0 -200px;
-    background-color:rgba(223, 19, 196, 0.623);
-    font-weight:500;
+    width:150px;
+    padding:10px 20px;
     border:none;
+    cursor:pointer;
+    border-radius:20px;
+    background-color:rgb(92,197,226);
+    color:black;
+    
 }
-nav a:hover{
-   border-bottom: 3px solid #000;
-   transition: all 0.2s linear 0.2s;
+.sign{
+    margin-right:-200px;
+}
+.log{
+    margin-right:30px;
+}
+.hero{
+    width:100%;
+    height:70vh;
+    background-color:rgb(252,102,194,0.4);
+    padding:10px 20px;
+    margin:30px auto;
+    
+
+}
+.hero-img{
+    width:30%;
+    border-radius:20px;
+    margin:20px auto 20px 150px;
+    background-color:black;    
+    
+}
+.hero-content{
+    width:50%;
+    height:35vh;
+    background-color:white;
+    padding:10px 20px;
+    position:absolute;
+    left:43%;
+    top:25%;
+    margin:50px auto;
+    border-radius:10px;
+}
+.hero-content h1{
+    font-size:80px;
+    text-align:center;
+    text-transform: uppercase;
+    padding:10px 10px;
+    font-family:'Jersey';
+}
+.heading{
+    color:rgb(231, 48, 170);;
+}
+.hero-content p{
+    font-size:20px;
+    padding:10px;
+    
+}
+.view-details{
+    margin:10px 10px;
+    display:block;
+    position:absolute;
+    top:80%;
+    left:40%;
+    font-weight:600;
+}
+.about-us-container{
+    width:100%;
+    height:90vh;
+    background-color:whitesmoke;
+    padding:20px;
+
+}
+.about-us{
+    width:50%;
+    background-color:whitesmoke;
+    height:60vh;
+    padding:30px;
+    position:absolute;
+    top:100%;
+    left:5%;
+
+}
+.about-us h2{
+    font-family: "Jersey";
+    font-size:60px;
+    line-height:40px;
+    margin:20px 10px;
+}
+.about-us p{
+    font-size:20px;
+    margin:20px 10px;
+}
+form{
+    border:2px solid;
+    margin:20px 10px;
+    padding:20px 10px;
+}
+#search-btn{
+    padding:10px;
+    border-radius:5px;
+    width:700px;
+    border:none;
+    text-align:center;
+    margin:10px 20px;
+}
+#report-btn{
+    padding:5px;
+    border-radius:5px;
+    border:none;
+    width:100px;
+    background-color:rgb(231, 48, 170);
+    cursor:pointer;
+}
+#vin-btn{
+    display:block;
+    padding:5px;
+    border-radius:5px;
+    border:none;
+    position:relative;
+    top:50%;
+    left:15%;
+    margin:10px 5px;
+    width:500px;
+    background-color:rgb(92,197,226);
+    cursor:pointer;
 }
 
+.about-img{
+    width:500px;
+    position:absolute;
+    top:90%;
+    left:60%;
+
+}
+.about-list{
+    display:flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    margin:20px auto;
+    
+}
+.about-list img{
+    width:15px;
+    margin:auto 5px;
+}
+
+.about-list li{
+    display:inline-block;
+    padding:10px;
+    list-style:square;
+}
